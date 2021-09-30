@@ -1,0 +1,205 @@
+*{  
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+ }
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Pacifico', cursive;
+    background-color: rgb(247 222 226) ;
+    background-image: linear-gradient(rgb(247 222 226),rgb(247 222 226),rgb(247 222 226),rgb(255, 255, 255));
+}
+
+
+/* INDEX */
+
+/* header index */
+
+header .primera-navbar img{
+    width: 100px;   
+}
+header .primera-navbar .imagen-izquierda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header .primera-navbar .imagen-derecha{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+header .primera-navbar .imagen-derecha img{
+    width: 45px;
+}
+header .primera-navbar .imagen-derecha .carrito{
+    width: 55px;
+}
+h2{
+    font-size: 1.5rem;
+    color:sienna;
+}
+header .primera-navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header .primera-navbar ul li a{
+    text-decoration: none;
+    font-size: 2.8rem;
+    color: sienna;
+    border-radius: 10%;
+    padding: 10px;
+}
+header .primera-navbar ul li a:hover{
+    background: rgb(231, 212, 212);
+    background-image: linear-gradient(rgb(247 222 226),rgb(247 222 226),rgb(255, 255, 255));
+}
+header .primera-navbar ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(247 222 226) ;
+    border-radius: 10%;
+    margin-top: 20px;
+}
+header .primera-navbar ul li .subcategoria{
+    display: flex;
+    flex-direction: column;
+}
+header .primera-navbar ul li .subcategoria{
+    position: absolute;
+    display: none;
+}
+header .primera-navbar ul li:hover > ul{
+    display: block;
+}
+
+/* main index */
+
+.main-index{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    font-size: 3rem;
+    align-items: center;
+    text-align: center;
+}
+main img{
+    width: 437px;
+}
+.boton a{
+    font-size: 3.5rem;
+    font-family: 'Pacifico', cursive;
+    text-decoration: none;
+    border-radius: 15%;
+    color: sienna;
+    background-color: rgb(247 222 226);
+    padding: 1rem;  
+}
+.boton a:hover{
+    background-color: rgb(243, 229, 229);
+}
+.texto-1{
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+    color: sienna;
+}
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+}
+footer a img{
+    display: flex;
+    flex-direction: row;
+    width: 35px;
+    margin: 5px;
+}
+
+/* PRODUCTOS */
+
+/* main productos dulce */ /* main productos salados */ /* main productos todos */
+
+main h1{
+    font-size: 4rem;
+    text-align: center;
+    color: sienna;
+}
+.productos-dulces{
+    display: grid;
+    grid-template-columns: repeat(4, 0.5fr);
+    margin: 50px;
+    gap: 8rem;
+}
+.productos-dulces img{
+    width: 380px;
+}
+.productos-dulces h3{
+    font-size: 3rem;
+    color: sienna;
+}
+.productos-dulces h4{
+    font-size: 2.5rem;
+}
+
+/* RECETAS */
+
+.recetas-dulces{
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+    align-items: center;
+    gap: 8rem;
+}
+.main-recetas p{
+    font-size: 2rem;
+    color: sienna;
+}
+.main-recetas .texto-2 h2{
+    font-size: 3rem;
+}
+
+/* CONTACTO */
+
+/* main contacto */
+
+.main-contacto{
+    display: flex;
+    justify-content: space-evenly;
+}
+.imagen-contacto{
+    text-align: center;
+}
+.imagen-contacto img{
+    width: 700px;
+}
+.imagen-contacto h2{
+    font-size: 2.5rem;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    color: sienna;
+    background-color: rgb(247 222 226);
+    background-image: linear-gradient(rgb(247 222 226),rgb(247 222 226),rgb(247 222 226),rgb(255, 255, 255));
+    font-size: 2.3rem;
+}
+.formulario input{
+    font-size: 2rem;
+    font-family: 'Pacifico', cursive;
+    color: sienna; 
+    background-color: rgb(235, 217, 217) ;
+}
+.formulario select{
+    font-size: 2rem;
+    font-family: 'Pacifico', cursive;
+    color: sienna; 
+    background-color: rgb(235, 217, 217) ;
+}
+.formulario textarea{
+    font-size: 2rem;
+    font-family: 'Pacifico', cursive;
+    color: sienna;
+}

@@ -144,6 +144,22 @@ main h1{
 .productos-dulces h4{
     font-size: 2.5rem;
 }
+.main-dulce{
+    margin-top: 80px;
+}
+.main-dulce h1{
+margin-bottom: 50px;
+}
+h5{
+    font-size: 2.5rem;
+    color: sienna;
+}
+.card p{
+    font-size: 2.5rem;
+}
+.btn{
+    font-size: 2.5rem;
+}
 
 /* RECETAS */
 

@@ -135,7 +135,7 @@ main h1{
     gap: 8rem;
 }
 .productos-dulces img{
-    width: 380px;
+    width: 400px;
 }
 .productos-dulces h3{
     font-size: 3rem;
@@ -144,10 +144,10 @@ main h1{
 .productos-dulces h4{
     font-size: 2.5rem;
 }
-.main-dulce{
+.main-sweet-salty{
     margin-top: 80px;
 }
-.main-dulce h1{
+.main-sweet-salty h1{
 margin-bottom: 50px;
 }
 h5{
@@ -160,7 +160,20 @@ h5{
 .btn{
     font-size: 2.5rem;
 }
-
+.carousel-item{
+    height: 360px;
+}
+.container-fluid{
+    margin-top: 2px;
+}
+.carousel-item h5{
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+}
+.carousel-item p {
+    font-size: 2.5rem;
+    color:rgb(255, 255, 255);
+}
 /* RECETAS */
 
 .recetas-dulces{
@@ -169,7 +182,11 @@ h5{
     align-items: center;
     gap: 8rem;
 }
-.main-recetas p{
+.recetas-dulces img{
+    width: 800px;
+    border-radius: 5%;
+}
+.main-recetas ol{
     font-size: 2rem;
     color: sienna;
 }

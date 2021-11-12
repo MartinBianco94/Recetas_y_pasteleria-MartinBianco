@@ -7,6 +7,7 @@
     <title>Productos dulces y salados</title>
     <meta name="description" content="Dulces, desayunos y meriendas tradicionales, todas adaptables a tus gustos y necesidades, ademas de algunas recetas fáciles para hacer en casa!">
     <meta name="keywords" content="pasteleria artesanal, pasteleria vegana, pasteleria lomas de zamora, pasteleria turdera, desayunos saludables, desayunos sorpresa, desayunos artesanales, recetas faciles, recetas saludables, recetas dulces">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
     <link rel="stylesheet" href="../Css/Estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Carattere&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Carattere&family=Pacifico&display=swap" rel="stylesheet">
@@ -17,7 +18,7 @@
    <header>
       <nav class="primera-navbar">
          <div class="imagen-izquierda">
-            <img src="../Images/logotipo_secundario.png" alt="logotipo secundario">
+            <img src="../Images/logotipo_secundario.png" alt="logotipo_secundario">
             <h2>Recetas y pastelería</h2>
          </div>
          <!-- Seccion complementaria 1: menú -->
@@ -47,165 +48,234 @@
          <!-- Seccion complementaria 2: opciones de login y compras-->
          <div class="imagen-derecha">
           <a href="../Pages/Perfil.html"><img src="../Images/perfil.png" alt="perfil"></a>
-          <a href="../Pages/Carrito.html"><img class="carrito" src="../Images/carrito_de_compras.png" alt="carrito de compras"></a>
+          <a href="../Pages/Carrito.html"><img class="carrito" src="../Images/carrito_de_compras.png" alt="carrito_de_compras"></a>
          </div>
       </nav> 
    </header> 
-  <main>
-    <h1>Productos Salados</h1>
-    <section class="productos-dulces">
-    <div>   
-     <a href="#"><img src="../Images/torta_vainilla.jpg" alt="chipá"></a>
-     <h3>Chipá</h3>
-     <h4>$895</h4>
+  <main class="main-sweet-salty">
+    <h1>Productos Salados y Dulces</h1>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../Images/pan.jpg" class="d-block w-100" alt="pan">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Productos salados y dulces</h5>
+              <p>Para compartir.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../Images/tortillas.jpg" class="d-block w-100" alt="tarta">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Meriendas Tradicionales</h5>
+              <p>Para regalar.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../Images/tortilla_de_papa_2.jpg" class="d-block w-100" alt="tortilla">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Productos adaptables a tus necesidades</h5>
+              <p>Para autoregalarse.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+       </div>
+    <div class="container-fluid">
+      <div class="row">
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+             <div class="card text-center">
+              <img src="../Images/talitas_2.jpg" class="card-img-top card-img" alt="talitas">
+              <div class="card-body">
+              <h5 class="card-title">Talitas</h5>
+              <p class="card-text">$895</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+             </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+             <div class="card text-center">
+              <img src="../Images/pan_saborizado.jpg" class="card-img-top card-img" alt="pancitos">
+              <div class="card-body">
+              <h5 class="card-title">Pancitos saborizados</h5>
+              <p class="card-text">$895</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+             </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+             <div class="card text-center">
+              <img src="../Images/chipa.jpg" class="card-img-top card-img" alt="chipá">
+              <div class="card-body">
+              <h5 class="card-title">Chipá</h5>
+              <p class="card-text">$895</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+             </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+             <div class="card text-center">
+              <img src="../Images/pan_molde.jpg" class="card-img-top card-img" alt="pan_de_molde">
+              <div class="card-body">
+              <h5 class="card-title">pan de molde</h5>
+              <p class="card-text">$895</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+             </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+             <div class="card text-center">
+              <img src="../Images/palmeritas.jpg" class="card-img-top card-img" alt="palmeritas">
+              <div class="card-body">
+              <h5 class="card-title">Palmeritas rellenas</h5>
+              <p class="card-text">$895</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+             </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+            <div class="card text-center">
+             <img src="../Images/lemon_pie.jpg" class="card-img-top card-img" alt="lemon_pie">
+             <div class="card-body">
+             <h5 class="card-title">Lemon pie</h5>
+             <p class="card-text">$895</p>
+             <a href="#" class="btn btn-primary">Comprar</a>
+             </div>
+            </div>
+         </div>
+         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+            <div class="card text-center">
+             <img src="../Images/torta_brownie (1).jpg" class="card-img-top card-img" alt="torta_brownie">
+             <div class="card-body">
+             <h5 class="card-title">Torta Brownie</h5>
+             <p class="card-text">$895</p>
+             <a href="#" class="btn btn-primary">Comprar</a>
+             </div>
+            </div>
+         </div>
+         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+            <div class="card text-center">
+             <img src="../Images/torta_con_chocolates.jpg" class="card-img-top card-img" alt="torta_balcarce">
+             <div class="card-body">
+             <h5 class="card-title">Torta Balcarce</h5>
+             <p class="card-text">$895</p>
+             <a href="#" class="btn btn-primary">Comprar</a>
+             </div>
+            </div>
+         </div>
+         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+            <div class="card text-center">
+             <img src="../Images/tarta_de_ricota.png" class="card-img-top card-img" alt="torta_de_ricota">
+             <div class="card-body">
+             <h5 class="card-title">Torta de ricota y limón</h5>
+             <p class="card-text">$895</p>
+             <a href="#" class="btn btn-primary">Comprar</a>
+             </div>
+            </div>
+         </div>
+         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+            <div class="card text-center">
+             <img src="../Images/torta_de_manzana.jpg" class="card-img-top card-img" alt="torta_de_manzana">
+             <div class="card-body">
+             <h5 class="card-title">Tarta Galette de manzana</h5>
+             <p class="card-text">$895</p>
+             <a href="#" class="btn btn-primary">Comprar</a>
+             </div>
+            </div>
+         </div>
+         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+            <div class="card text-center">
+             <img src="../Images/pasta_frola.jpg" class="card-img-top card-img" alt="pasta_frola">
+             <div class="card-body">
+             <h5 class="card-title">Pasta Frola</h5>
+             <p class="card-text">$895</p>
+             <a href="#" class="btn btn-primary">Comprar</a>
+             </div>
+            </div>
+         </div>
+         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+            <div class="card text-center">
+             <img src="../Images/trufas.jpg" class="card-img-top card-img" alt="trufas">
+             <div class="card-body">
+             <h5 class="card-title">Trufas ganache</h5>
+             <p class="card-text">$895</p>
+             <a href="#" class="btn btn-primary">Comprar</a>
+             </div>
+            </div>
+         </div>
+         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+            <div class="card text-center">
+             <img src="../Images/alfajores_brownie.jpg" class="card-img-top card-img" alt="alfajores_de_chocolate">
+             <div class="card-body">
+             <h5 class="card-title">Alfajores Brownie</h5>
+             <p class="card-text">$895</p>
+             <a href="#" class="btn btn-primary">Comprar</a>
+             </div>
+            </div>
+         </div>
+         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+            <div class="card text-center">
+             <img src="../Images/alfajores_de_fruta.jpeg" class="card-img-top card-img" alt="alfajores_de_fruta">
+             <div class="card-body">
+             <h5 class="card-title">Alfajores de fruta</h5>
+             <p class="card-text">$895</p>
+             <a href="#" class="btn btn-primary">Comprar</a>
+             </div>
+          </div>
+      </div>
     </div>
-    <div>
-     <a href="#"><img src="../Images/torta_vainilla.jpg" alt="talitas"></a>
-     <h3>Talitas</h3>
-     <h4>$450</h4>
+   <div>
+     <h1>
+       Precios
+     </h1>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Productos</th>
+          <th scope="col">Tradicional</th>
+          <th scope="col">Integral</th>
+          <th scope="col">Personalizado</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Dulces</th>
+          <td>$ -</td>
+          <td>+ $50</td>
+          <td>+ $200</td>
+        </tr>
+        <tr>
+          <th scope="row">Salados</th>
+          <td>$ -</td>
+          <td> + $100</td>
+          <td> + $200</td>
+        </tr>
+        <tr>
+          <th scope="row">Desayunos</th>
+          <td>$ -</td>
+          <td> + $200</td>
+          <td> + $250</td>
+        </tr>
+      </tbody>
+    </table>
     </div>
-    <div>
-     <a href="#"><img src="../Images/torta_vainilla.jpg" alt="pancitos"></a>
-     <h3>Pancitos saborizados</h3>
-     <h4>$500</h4>
-    </div>
-    <div>
-     <a href="#"><img src="../Images/torta_vainilla.jpg" alt="pan de molde"></a>
-     <h3>Pan de molde</h3>
-     <h4>$900</h4>
-    </div>
-    </section>
-    <h1>Productos Dulces</h1>
-    <section class="productos-dulces">
-    <div>   
-     <a href="#"><img src="../Images/torta_vainilla.jpg" alt="lemon pie"></a>
-     <h3>Lemon pie</h3>
-     <h4>$895</h4>
-    </div>
-    <div>
-     <a href="#"><img src="../Images/torta_vainilla.jpg" alt="torta brownie"></a>
-     <h3>Torta Brownie</h3>
-     <h4>$450</h4>
-    </div>
-    <div>
-     <a href="#"><img src="../Images/torta_vainilla.jpg" alt="torta balcarce"></a>
-     <h3>Torta Balcarce</h3>
-     <h4>$500</h4>
-    </div>
-    <div>
-     <a href="#"><img src="../Images/torta_vainilla.jpg" alt="torta de ricota"></a>
-     <h3>Torta de ricota y limón</h3>
-     <h4>$900</h4>
-    </div>
-    <div>
-     <a href="#"><img src="../Images/torta_vainilla.jpg" alt="torta de manzana"></a>
-     <h3>Tarta Galette de manzana</h3>
-     <h4>$850</h4>
-    </div>
-    <div>
-     <a href="#"><img src="../Images/torta_vainilla.jpg" alt="pasta frola"></a>
-     <h3>Pasta Frola</h3>
-     <h4>$200</h4>
-    </div>
-    <div>   
-     <a href="#"><img src="../Images/torta_vainilla.jpg" alt="trufas"></a>
-     <h3>Trufas de ganache de chocolate</h3>
-     <h4>$895</h4>
-    </div>
-    <div>
-     <a href="#"><img src="../Images/torta_vainilla.jpg" alt="alfajores de maicena"></a>
-     <h3>Alfajores de maicena</h3>
-     <h4>$450</h4>
-    </div>
-    <div>
-     <a href="#"><img src="../Images/torta_vainilla.jpg" alt="alfajores brownie"></a>
-     <h3>Alfajores Brownie</h3>
-     <h4>$500</h4>
-    </div>
-    <div>
-     <a href="#"><img src="../Images/torta_vainilla.jpg" alt="alfajores de fruta"></a>
-     <h3>Alfajores de fruta</h3>
-     <h4>$900</h4>
-    </div>
-    <div>
-     <a href="#"><img src="../Images/torta_vainilla.jpg" alt="budines"></a>
-     <h3>Budines</h3>
-     <h4>$850</h4>
-    </div>
-    <div>
-     <a href="#"><img src="../Images/torta_vainilla.jpg" alt="cupcakes"></a>
-     <h3>Muffins</h3>
-     <h4>$200</h4>
-    </div>
-    <div>
-     <a href="#"><img src="../Images/torta_vainilla.jpg" alt="donas glaseadas"></a>
-     <h3>Donas glaseadas</h3>
-     <h4>$850</h4>
-    </div>
-    <div>
-     <a href="#"><img src="../Images/torta_vainilla.jpg" alt="pepas"></a>
-     <h3>Pepas</h3>
-     <h4>$200</h4>
-    </div>
-    <div>   
-     <a href="#"><img src="../Images/torta_vainilla.jpg" alt="brownies"></a>
-     <h3>Cuadrados brownie comunes o doble chocolate</h3>
-     <h4>$895</h4>
-    </div>
-    <div>
-     <a href="#"><img src="../Images/torta_vainilla.jpg" alt="chips"></a>
-     <h3>Chips</h3>
-     <h4>$450</h4>
-    </div>
-    <div>
-     <a href="#"><img src="../Images/torta_vainilla.jpg" alt="mermeladas"></a>
-     <h3>Mermeladas</h3>
-     <h4>$500</h4>
-    </div>
-    <div>
-     <a href="#"><img src="../Images/torta_vainilla.jpg" alt="granola"></a>
-     <h3>Granola</h3>
-     <h4>$900</h4>
-    </div>
-   </section>
-    <h1>Precios</h1>
-   <section class="tabla-precios">
-     <table border="1px">
-     <tr>
-      <th>Productos</th>  
-      <th>Dulces</th>
-      <th>Saldos</th>
-      <th>Desayunos</th>
-      <th>Meriendas</th>
-     </tr>
-     <tr>
-      <th>Tradicional</th>
-      <td>$</td>
-      <td>$</td>
-      <td>$</td>
-      <td>$</td>
-     </tr>
-     <tr>
-      <th>Integral</th>
-      <td>$</td>
-      <td>$</td>
-      <td>$</td>
-      <td>$</td>
-     </tr>
-     <tr>
-     <th>Personalizado</th>
-      <td>$</td>
-      <td>$</td>
-      <td>$</td>
-      <td>$</td>
-     </tr>
-     </table>
-   </section>
   </main>
  <footer>
-   <a href="https://instagram.com/diariodeunaporcion?utm_medium=copy_link"><img src="../Images/instagram_logo.png" alt="instagram logo">
-   <a href="https://www.facebook.com/diariodeunaporcion/"><img src="../Images/facebook_logo.png" alt="facebook logo">
+   <a href="https://instagram.com/diariodeunaporcion?utm_medium=copy_link"><img src="../Images/instagram_logo.png" alt="instagram_logo">
+   <a href="https://www.facebook.com/diariodeunaporcion/"><img src="../Images/facebook_logo.png" alt="facebook_logo">
    <a href="https://goo.gl/maps/gHgP9qhkgSUxZKaCA"><img src="../Images/google_maps.png" alt="ubicación">
  </footer>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -147,6 +147,9 @@ h5 {
   font-size: 2.5rem;
   color: #a0522d; }
 
+.card-img {
+  height: 280px; }
+
 .card p {
   font-size: 2.5rem; }
 
@@ -167,6 +170,18 @@ h5 {
   font-size: 2.5rem;
   color: #ffffff; }
 
+.pedido p{
+  font-size: 2rem;
+  color:#a0522d;
+  text-align: center;
+}
+
+/*TABLA DE PRECIOS*/
+.table {
+  font-size: 2rem;
+  color: #a0522d; 
+}
+
 /* RECETAS */
 .recetas-dulces {
   display: grid;
@@ -185,6 +200,7 @@ h5 {
 .main-recetas .texto-2 h2 {
   font-size: 3rem; }
 
+
 /* CONTACTO */
 /* main contacto */
 .main-contacto {
@@ -195,7 +211,7 @@ h5 {
   text-align: center; }
 
 .imagen-contacto img {
-  width: 700px; }
+  width: 920px; }
 
 .imagen-contacto h2 {
   font-size: 2.5rem; }
@@ -224,3 +240,12 @@ h5 {
   font-size: 2rem;
   font-family: 'Pacifico', cursive;
   color: #a0522d; }
+
+/* PERFIL */ 
+/*main perfil */
+
+.formulario{
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+

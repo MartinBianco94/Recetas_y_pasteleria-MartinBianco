@@ -155,6 +155,9 @@ h5{
     font-size: 2.5rem;
     color: $font_color;
 }
+.card-img{
+    height: 280px;
+}
 .card p{
     font-size: 2.5rem;
 }
@@ -174,6 +177,17 @@ h5{
 .carousel-item p {
     font-size: 2.5rem;
     color: $background_color_2;
+}
+.pedido p{
+    font-size: 2rem;
+    color:#a0522d;
+    text-align: center;
+}
+
+/*TABLA DE PRECIOS*/
+.table {
+    font-size: 2rem;
+    color: #a0522d; 
 }
 
 /* RECETAS */
@@ -237,4 +251,12 @@ h5{
     font-size: 2rem;
     font-family: 'Pacifico', cursive;
     color: $font_color;
+}
+
+/* PERFIL */ 
+/*main perfil */
+
+.formulario{
+    font-size: 3rem;
+    margin-top: 1rem;
 }
